@@ -4,7 +4,7 @@ Kevin VanDelden
 10/15/2021
 
 # Objective: 
-Write a data pipeline, in Python, that collects daily prices, 24h volume, and mkt cap for all crypto assets listed by CoinGecko. This pipeline should then load it into a MySQL database.
+Write a data pipeline, in Python, that collects daily prices, 24h volume, and mkt cap for all crypto assets listed by CoinGecko using the Beautiful Soup Library. This pipeline should then load it into a MySQL database.
 
 # Database Considerations:
 - Made sure to use an exact numeric type available for currencies, DECIMAL(65,30)
